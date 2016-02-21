@@ -5,8 +5,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import CommentBox from './comment/CommentBox';
 
+// var comments = [
+//   {"author": "百花弟", "date": "5 分钟前", "text": "天气不错啊!"},
+//   {"author": "百花妹", "date": "3 分钟前", "text": "明天出去玩啊!"}
+// ];
+//
+// ReactDOM.render(
+//   <CommentBox data={comments} />,
+//   document.getElementById('app')
+// );
+
 ReactDOM.render(
-  <CommentBox />,
+  <CommentBox url="app/comments.json" />,
   document.getElementById('app')
 );
 
