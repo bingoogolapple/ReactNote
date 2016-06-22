@@ -24,6 +24,19 @@ jspm install react-router
 jspm install semantic-ui
 jspm install css
 ```
+>安装jquery
+
+```
+jspm install jquery
+```
+>打包 bundle,在浏览器控制台的网络tab里就看不到加载多个js文件
+
+```
+jspm bundle app/main app/build.js
+
+加上--inject后会在config.js中添加bundles信息，这样就不用在html中添加<script src="app/build.js"></script>
+jspm bundle app/main app/build.js --inject
+```
 >browser-sync开启本地服务,修改指定文件保存后自动同步刷新浏览器
 
 ```
