@@ -1,0 +1,28 @@
+{
+  "name": "foundation-comment",
+  "version": "1.0.0",
+  "description": "[JSPM](http://jspm.io/docs/getting-started.html)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.39"
+  },
+  "jspm": {
+    "dependencies": {
+      "css": "github:systemjs/plugin-css@^0.1.23",
+      "jquery": "npm:jquery@^3.0.0",
+      "react": "npm:react@^15.1.0",
+      "react-dom": "npm:react-dom@^15.1.0",
+      "semantic-ui": "github:Semantic-Org/Semantic-UI@^2.1.8"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
