@@ -1,6 +1,7 @@
 [JSPM官网](http://jspm.io/)
 [JSPM文档](http://jspm.io/docs/getting-started.html)
 [browsersync官网](https://browsersync.io/)
+[Browsersync + Gulp.js](https://www.browsersync.io/docs/gulp/)
 
 >初始化npm和jspm,SystemJS可以加载JavaScript,Babel可以编译JavaScript,而且会把JSX格式的代码编译成JavaScript
 
@@ -28,6 +29,9 @@ jspm install css
 ```
 jspm install jquery
 ```
+
+### 运行方案1
+
 >打包 bundle,在浏览器控制台的网络tab里就看不到加载多个js文件
 
 ```
@@ -40,4 +44,14 @@ jspm bundle app/main app/build.js --inject
 
 ```
 browser-sync start --server --no-notify --files 'index.html, app/**\/*.js'
+```
+
+### 运行方案2
+
+>Browsersync + Gulp.js
+
+```
+npm install browser-sync gulp --save-dev
+
+gulp
 ```
