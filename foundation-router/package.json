@@ -1,7 +1,7 @@
 {
-  "name": "helloreact",
+  "name": "foundation-router",
   "version": "1.0.0",
-  "description": "",
+  "description": "[JSPM官网](http://jspm.io/) [JSPM文档](http://jspm.io/docs/getting-started.html) [browsersync官网](https://browsersync.io/)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,15 +9,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jspm": "^0.16.29"
+    "jspm": "^0.16.39"
   },
   "jspm": {
     "dependencies": {
-      "css": "github:systemjs/plugin-css@^0.1.20",
-      "jquery": "npm:jquery@^2.2.0",
-      "react": "npm:react@^0.14.7",
-      "react-dom": "npm:react-dom@^0.14.7",
-      "react-router": "npm:react-router@^2.0.0",
+      "css": "github:systemjs/plugin-css@^0.1.23",
+      "react": "npm:react@^15.1.0",
+      "react-dom": "npm:react-dom@^15.1.0",
+      "react-router": "npm:react-router@^2.4.1",
       "semantic-ui": "github:Semantic-Org/Semantic-UI@^2.1.8"
     },
     "devDependencies": {
